@@ -1,0 +1,32 @@
+name: gantt_chart
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  isar: 
+    version: 3.1.8
+    hosted: https://pub.isar-community.dev/
+  isar_flutter_libs: 
+    version: 3.1.8
+    hosted: https://pub.isar-community.dev/
+  path_provider: ^2.1.5
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  intl: ^0.20.1
+  isar_generator: 
+    version: 3.1.8
+    hosted: https://pub.isar-community.dev/
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
